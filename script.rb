@@ -50,8 +50,8 @@ end
 checking_account = Account.new("chase", 1000)
 
 p my_account = Account.new("Michael", 3000)
+p my_account.withdraw(1234, 4500)
 p my_account.display_balance(1234)
-p my_account.withdraw(1234, 1500)
 # p my_account.display_balance(1234)
 # p savings = SavingsAccount.new("savings", 10000)
 # p savings.deposit(1234, 5)
